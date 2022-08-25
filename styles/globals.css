@@ -1,11 +1,33 @@
-.unavailable {
-    pointer-events: none;
-    background-color: rgba(0, 118, 225, 0.5);
-}
-.available {
-    background-color: #0070f3;
-}
 button {
     cursor: pointer;
     border: none;
+    width: 6em;
+    color: white;
+    height: 2em;
+    border-radius: 12%
+}
+
+h2 {
+    line-height: 0.3;
+}
+
+span {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.unavailable {
+    pointer-events: none;
+    background-color: rgba(0, 118, 225, 0.8);
+}
+
+.available {
+    background-color: #0070f3;
 }
